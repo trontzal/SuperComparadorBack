@@ -42,4 +42,4 @@ def get_mercadona_productos_especificos(id):
         data = response.json()
         return jsonify(data)
     else:
-        return jsonify({'error': 'Error en la solicitud'}), 500
+        return "no existe"
